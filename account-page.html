@@ -25,36 +25,36 @@
                     <form id="form" action="/accounts/idk" method="post">
                         <fieldset id="fieldset">
                             <legend>Account Information</legend>
-
-                            <div>
+                            <div class="from-item">
                                 <label for="username">Username:</label>
                                 <input type="text" id="username" name="username">
                             </div>
 
-                            <div>
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email">
-                            </div>
-
-                            <div>
+                            <div class="from-item">
                                 <label for="password">Password:</label>
                                 <input type="password" id="password" name="password">
                             </div>
 
-                            <div class="comment-div">
-                                <label for="comments">Say some words that will absolutely be read: </label>
-                                <textarea id="comments" rows="4" columns="30"></textarea>
+                            <div class="from-item">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email">
                             </div>
 
-                            <div>
+                            <div class="from-item">
+                                <div>
+                                    <label for="comments">Say some words that will absolutely be read: </label>
+                                <div>
+                                <textarea id="comments" rows="4" cols="40"></textarea>
+                            </div>
+
+                            <div class="from-item">
                                 <input type="checkbox" id="terms" name="terms">
-                                <label for="terms">I agree to do everything bird wants</label>
+                                <label for="terms">I agree to do<br> everything bird wants</label>
                             </div>
 
-                            <div>
+                            <div class="from-item">
                                 <button type="submit">ACTIVATE BUTTON</button>
                             </div>
-
                         </fieldset>
                     </form>
                 </div>

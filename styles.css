@@ -1,8 +1,45 @@
 h1 {
     font-size: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #8BCB93;
     margin: 1% auto;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 10px rgba(153, 250, 166, 0.534);
+    padding: 5px;
+}
+
+
+.homebar {
+    background-color: #8BCB93;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #316C3D;
+    margin-left: 7.5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homebar > a {
+    font-size: 2em;
+    color: #163427;
+}
+
+li > a {
+    font-size: 2em;
+    color:#8BCB93
 }
 
 #big-div {
@@ -31,4 +68,12 @@ html {
 
 body {
 
+}
+
+fieldset {
+    box-shadow: 0px 0px 10px rgba(153, 250, 166, 0.534);
+}
+
+.from-item{
+    margin: 20px;
 }
